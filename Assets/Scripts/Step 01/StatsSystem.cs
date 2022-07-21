@@ -23,7 +23,7 @@ public class StatsSystem : MonoBehaviour
     public int luck = 0;
     public int rhythm = 0;
 
-    private Character character;
+   [SerializeField] private Character character;
 
 
     /// <summary>
@@ -83,6 +83,11 @@ public class StatsSystem : MonoBehaviour
         {
             character.RemoveFromTeam();
         }
+
+    }
+
+    public void RemoveFromTeam()
+    {
 
     }
 

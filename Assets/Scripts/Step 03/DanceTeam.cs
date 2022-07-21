@@ -24,6 +24,8 @@ public class DanceTeam : MonoBehaviour
 
     public CharacterNameGenerator nameGenerator;
 
+
+
     /// <summary>
     /// Takes in a dancer prefab and loops over all the spawn points in the game and spawns a dancer for us.
     /// </summary>
@@ -33,8 +35,8 @@ public class DanceTeam : MonoBehaviour
         List<CharacterName> allCharacterNames = new List<CharacterName>(); // a list to hold all our character name references.
 
         // so here we want to be able to loop over all of our character spawn points.
-      
-            // for each spawn point, we want to use our Instantiate(Gameobject, Vector3, Quaternion); and pass in our dancer prefab, as well as the position and rotation of the spawn point
+
+        // for each spawn point, we want to use our Instantiate(Gameobject, Vector3, Quaternion); and pass in our dancer prefab, as well as the position and rotation of the spawn point
             // Once that does occur, we should store what was spawned into a gameobject for use later on.
             GameObject clone = null;
 
@@ -50,7 +52,8 @@ public class DanceTeam : MonoBehaviour
             {
                 // Here we are using this, this is essentially referening myself; so the clone character gets a reference of this class.
                 cloneCharacter.myTeam = this;
-                // finally let's call the AddNewDancer function and pass in our reference to our cloneCharcter
+            // finally let's call the AddNewDancer function and pass in our reference to our cloneCharcter
+
 
             }
 
