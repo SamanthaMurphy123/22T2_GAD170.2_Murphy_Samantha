@@ -54,7 +54,7 @@ public class DanceTeam : MonoBehaviour
                 cloneCharacter.myTeam = this;
             // finally let's call the AddNewDancer function and pass in our reference to our cloneCharcter
 
-
+            //AddNewDancer();
             }
 
         // we get to here our team is spawned in, yay but now.... we want to call the SetTeamCharacterNames function from our NameGenerator assuming we already have a reference to it

@@ -106,7 +106,7 @@ public class StatsSystem : MonoBehaviour
         strength = (strength + PointsPool);
 
         // then let's recalculate our dancing stats again to process and update the new values.
-
+        
 
     }
 
